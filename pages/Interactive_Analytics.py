@@ -23,7 +23,7 @@ def load_css():
         }
         </style>
     """
-    st.markdown(hide_sidebar_style, unsafe_allow_html=True)
+    st.markdown(hide_sidebar_style, unsafe_allow_html=True) 
     
 
 
