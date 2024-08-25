@@ -14,8 +14,6 @@ runOnSave = true
 enableCORS = false  # Disable Cross-Origin Resource Sharing if not needed, can slightly improve performance
 enableWebsocketCompression = false  # Reduce latency by disabling websocket compression if it's not necessary
 maxUploadSize = 200  # Increase if your app handles large uploads, default is 200MB
-enableCORS = false
-enableWebsocketCompression = false
 
 [ui]
 hideSidebarNav = true
