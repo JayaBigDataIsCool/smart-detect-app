@@ -1,9 +1,10 @@
 import streamlit as st
 import os
 
+# Force wide layout
+st.set_page_config(layout="wide")
 
 
-# Apply CSS styles
 @st.cache_data
 def load_css():
     css_file = os.path.join(os.path.dirname(__file__), '../styles.css')
@@ -23,7 +24,7 @@ def load_css():
         }
         </style>
     """
-    st.markdown(hide_sidebar_style, unsafe_allow_html=True) 
+    st.markdown(hide_sidebar_style, unsafe_allow_html=True)
     
 
 

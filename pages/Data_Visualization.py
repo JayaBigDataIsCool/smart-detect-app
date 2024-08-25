@@ -1,9 +1,10 @@
 import streamlit as st
 import os
 
+# Force wide layout
+st.set_page_config(layout="wide")
 
 
-# Apply CSS styles
 @st.cache_data
 def load_css():
     css_file = os.path.join(os.path.dirname(__file__), '../styles.css')

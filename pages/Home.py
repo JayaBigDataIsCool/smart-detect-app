@@ -1,5 +1,7 @@
 import streamlit as st
 
+# Force wide layout
+st.set_page_config(layout="wide")
 
 
 # Apply CSS styles

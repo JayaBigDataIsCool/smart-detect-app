@@ -1,6 +1,8 @@
 import streamlit as st
 import os
 
+# Force wide layout
+st.set_page_config(layout="wide")
 
 
 @st.cache_data
